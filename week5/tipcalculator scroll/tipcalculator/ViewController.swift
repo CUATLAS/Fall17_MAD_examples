@@ -64,7 +64,7 @@ class ViewController: UIViewController, UITextFieldDelegate {
         let currencyFormatter = NumberFormatter()
         currencyFormatter.numberStyle=NumberFormatter.Style.currency //set the number style
         tipDue.text=currencyFormatter.string(from: NSNumber(value: tip)) //returns a formatted string
-        totalDue.text=currencyFormatter.string(from: NSNumber(value: tip))
+        totalDue.text=currencyFormatter.string(from: NSNumber(value: total))
         totalDuePerPerson.text=currencyFormatter.string(from: NSNumber(value: personTotal))
     }
     
