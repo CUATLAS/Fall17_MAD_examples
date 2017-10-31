@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">Sport</string>
+    <string name="heading">Find Your Sport</string>
+    <string name="sport_button">Find</string>
+    <string name="toggle_on">inside</string>
+    <string name="toggle_off">outside</string>
+    <string-array name="exercise">
+        <item>cardio</item>
+        <item>strength</item>
+        <item>flexibility</item>
+    </string-array>
+    <string name="radio1">$</string>
+    <string name="radio2">$$</string>
+    <string name="radio3">$$$</string>
+    <string name="winter">Winter</string>
+    <string name="spring">Spring</string>
+    <string name="summer">Summer</string>
+    <string name="fall">Fall</string>
+
+
+</resources>
